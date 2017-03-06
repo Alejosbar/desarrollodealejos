@@ -1,0 +1,286 @@
+ {
+  width: ;
+  height: ;
+  padding: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 13px;
+  padding-bottom: 5px;
+  padding: 10px 13px 5px 15px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 13px;
+  margin-bottom: 5px;
+  margin: 10px 13px 5px 15px;
+  border: 2px solid red;
+  border: 2px dashed;
+}
+
+body {
+  font-family: 'Allerta', sans-serif;
+}
+table{
+  width: 100%;
+  }
+  th {
+    background: #273b47;
+    color: white;
+  }
+  td{
+    padding: 10px;
+  }
+  th{
+    padding: 10px 20px;
+    text-align: left;
+  }
+  table, td, th{
+    border: 1px solid #273b47;
+    border-collapse: collapse;
+  }
+  input, textarea{
+    outline: 0;
+  }
+  input:focus, textarea:focus {
+    background: lightgray;
+  }
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+.background {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 70px;
+  margin-left: 220px;
+}
+.titulo span {
+text-decoration: underline;
+}
+.title-a {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-left: 230px;
+}
+.guitarras h2 {
+  font-size: 35px;
+}
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.title-c {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.portada {
+  color: white;
+  padding: 10px;
+  height: 400px;
+  /*width: 800px;
+  margin: auto;*/
+}
+.portada button {
+  margin-bottom: 10px;
+}
+.guitarras {
+  color: #1F313C;
+  /*width: 800px;
+  margin: auto;*/
+  margin-bottom: 60px;
+}
+.menu {
+  font-size: 24px;
+  display: inline-block;
+
+}
+.menu li {
+  /*margin-left: 30px;*/
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  right: -160px;
+}
+.menu li:before{
+  /*&lowast;*/
+  content: "⊵";
+  font-size: 15px;
+  line-height: 20px;
+  color:white;
+}
+.logotipo{
+  display: inline-block;
+  margin-left: 10px;
+}
+.header {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+.contenedortabla {
+  width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+.guitarra {
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  /*overflow: hidden;*/
+  border: 1px solid #1F313C;
+  border-radius: 8px;
+}
+.guitarra ol {
+  padding: 1px;
+  margin: 30px;
+}
+.guitarra.b{
+  height: 190px;
+}
+.derecha {
+    float: right;
+    position: relative;
+    top: -100px;
+}
+.izquierda {
+    float: left;
+    position: relative;
+    /*top: 80px;*/
+}
+.button{
+  border-radius: 12px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+  background: #ff670f; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ff670f 0%, #ff670f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ff670f 0%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ff670f 0%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff670f', endColorstr='#ff670f',GradientType=0 ); /* IE6-9 */
+
+/*background: linear-gradient(to left, #fe344e, #ff7250);*/
+  /*margin-left: 220px;*/
+}
+.button-conocemas{
+  border-radius: 12px;
+  border: none;
+  background: #fd324e;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  /*background: linear-gradient(to left, #fe344e, #ff7250);*/
+  margin-left: 220px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+background: #ff670f; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff670f 0%, #ff670f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff670f 0%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff670f 0%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff670f', endColorstr='#ff670f',GradientType=0 ); /* IE6-9 */
+
+}
+.contenedor-guitarra-a {
+  padding-left: 20px;
+}
+.contenedor-guitarra-b {
+  padding-right: 20px;
+  position: relative;
+  bottom: 50px;
+}
+.footer {
+  background: #273b47;
+  padding: 50px 10px;
+}
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contacto img {
+  display: block;
+}
+.contacto strong {
+  display:block;
+}
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
+  /*padding: 50px 10px;*/
+}
+.col1, .col2 {
+display: flex;
+flex-direction: column;
+}
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col2 .button{
+  margin-top: 15px;
+}
+.intereses label {
+  font-size: 12px;
+}
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+.sexo {
+  margin-top: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+
+  }
+/*codepen.io*/
+/*.padre {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between ;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;
+}
+.hijo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background: green;
+  border: 1px solid blue;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction:column;
+}*/
+/*https://dev.w3.org/html5/html-author/charref*/
+/*http://www.colorzilla.com/gradient-editor/*/
